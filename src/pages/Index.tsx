@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
@@ -12,6 +11,18 @@ const Index = () => {
       <section className="relative px-6 py-20 text-center">
         <div className="max-w-4xl mx-auto">
           <div className="animate-fade-in">
+            {/* Profile Photo */}
+            <div className="mb-8 flex justify-center">
+              <div className="relative">
+                <img 
+                  src="/lovable-uploads/e53b5026-ad3f-4094-bb08-0fb7aea086d6.png" 
+                  alt="Dhatchana S J" 
+                  className="w-48 h-48 rounded-full object-cover border-4 border-white shadow-lg"
+                />
+                <div className="absolute inset-0 rounded-full bg-gradient-to-tr from-blue-600/20 to-transparent"></div>
+              </div>
+            </div>
+            
             <h1 className="text-5xl md:text-6xl font-bold text-gray-900 mb-4">
               Dhatchana S J
             </h1>
